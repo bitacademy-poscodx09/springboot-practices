@@ -19,8 +19,14 @@ public class WebMvcApplication {
 		
 		@GetMapping("/hello2")
 		public String hello2() {
+			return "th/hello";
+		}
+		
+		@GetMapping("/hello3")
+		public String hello3() {
 			return "hello";
 		}
+		
 	}
 	
 	public static void main(String[] args) {
